@@ -13,6 +13,8 @@
 		04F464D52660A0BA009A5CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F464D32660A0BA009A5CDA /* Main.storyboard */; };
 		04F464D72660A0C2009A5CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F464D62660A0C2009A5CDA /* Assets.xcassets */; };
 		04F464DA2660A0C2009A5CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F464D82660A0C2009A5CDA /* LaunchScreen.storyboard */; };
+		04F464E52660A0C2009A5CDA /* ConversoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F464E42660A0C2009A5CDA /* ConversoresTests.swift */; };
+		04F464F02660A0C2009A5CDA /* ConversoresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F464EF2660A0C2009A5CDA /* ConversoresUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,11 @@
 		04F464D92660A0C2009A5CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F464DB2660A0C2009A5CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F464E02660A0C2009A5CDA /* ConversoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversoresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F464E42660A0C2009A5CDA /* ConversoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversoresTests.swift; sourceTree = "<group>"; };
+		04F464E62660A0C2009A5CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F464EB2660A0C2009A5CDA /* ConversoresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversoresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F464EF2660A0C2009A5CDA /* ConversoresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversoresUITests.swift; sourceTree = "<group>"; };
+		04F464F12660A0C2009A5CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				04F464CC2660A0BA009A5CDA /* Conversores */,
+				04F464E32660A0C2009A5CDA /* ConversoresTests */,
+				04F464EE2660A0C2009A5CDA /* ConversoresUITests */,
 				04F464CB2660A0BA009A5CDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +108,24 @@
 				04F464DB2660A0C2009A5CDA /* Info.plist */,
 			);
 			path = Conversores;
+			sourceTree = "<group>";
+		};
+		04F464E32660A0C2009A5CDA /* ConversoresTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F464E42660A0C2009A5CDA /* ConversoresTests.swift */,
+				04F464E62660A0C2009A5CDA /* Info.plist */,
+			);
+			path = ConversoresTests;
+			sourceTree = "<group>";
+		};
+		04F464EE2660A0C2009A5CDA /* ConversoresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F464EF2660A0C2009A5CDA /* ConversoresUITests.swift */,
+				04F464F12660A0C2009A5CDA /* Info.plist */,
+			);
+			path = ConversoresUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F464E52660A0C2009A5CDA /* ConversoresTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F464F02660A0C2009A5CDA /* ConversoresUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
